@@ -469,7 +469,7 @@ this.physics.add.overlap(player, [redbouncyenemy1, redbouncyenemy2, redbouncyene
        this.anims.create({
            key: 'right',
            frames: this.anims.generateFrameNumbers('dude', { start: 0, end: 14 }),  // Adjust start and end frames based on the number of frames in your sprite
-           frameRate: 40,
+           frameRate: 20,
            repeat: -1
        });
 
